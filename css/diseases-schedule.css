@@ -1,0 +1,222 @@
+.disease-schedule {
+  padding-top: 102px;
+  padding-bottom: 60px;
+  margin: 0 auto;
+  max-width: 1621px;
+}
+@media (max-width: 1621px) {
+  .disease-schedule {
+    padding-left: 29px;
+    padding-right: 29px;
+  }
+}
+.disease-schedule__title {
+  margin-bottom: 59px;
+}
+@media (max-width: 900px) {
+  .disease-schedule__title {
+    text-align: center;
+  }
+}
+.disease-schedule__content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+@media (max-width: 900px) {
+  .disease-schedule__content {
+    flex-direction: column;
+  }
+}
+.disease-schedule__text {
+  background: #FAFAFA;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #000000;
+  flex: 0 0 48%;
+  padding-left: 43px;
+  padding-top: 47px;
+  padding-right: 85px;
+  padding-bottom: 23px;
+}
+@media (max-width: 540px) {
+  .disease-schedule__text {
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 5px;
+  }
+}
+.disease-schedule__text p {
+  margin-bottom: 20px;
+}
+.disease-schedule__content-video {
+  background: #FAFAFA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 48%;
+}
+.disease-schedule__content-video iframe {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 900px) {
+  .disease-schedule__content-video iframe {
+    height: 400px;
+  }
+}
+@media (max-width: 540px) {
+  .disease-schedule__content-video iframe {
+    height: 500px;
+  }
+}
+.disease-schedule__search {
+  max-width: 704px;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 89px;
+}
+.disease-schedule__search input {
+  width: 100%;
+  background: #FFFFFF;
+  border: 0.5px solid rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 12px 67px 11px 27px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.disease-schedule__search::after {
+  content: "";
+  background: url(../img/search.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  width: 20px;
+  height: 20px;
+}
+@media (max-width: 678px) {
+  .disease-schedule__search::after {
+    display: none;
+  }
+}
+.disease-schedule__buttons {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 540px) {
+  .disease-schedule__buttons {
+    flex-direction: column;
+  }
+}
+@media (max-width: 540px) and (max-width: 540px) {
+  .disease-schedule__buttons a:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+.disease-schedule__button-write {
+  flex: 0 0 47%;
+}
+.disease-schedule__button-test {
+  flex: 0 0 47%;
+}
+
+.diseases-list {
+  margin: 0 auto;
+  max-width: 1621px;
+}
+@media (max-width: 1621px) {
+  .diseases-list {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
+.diseases-list__item {
+  background: #FAFAFA;
+  border-radius: 15px;
+  color: #000000;
+  padding: 39px 50px 39px 50px;
+}
+@media (max-width: 540px) {
+  .diseases-list__item {
+    padding: 39px 20px 39px 20px;
+  }
+}
+.diseases-list__item:not(:last-child) {
+  margin-bottom: 31px;
+}
+.diseases-list__item-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 11px;
+}
+@media (max-width: 540px) {
+  .diseases-list__item-title {
+    margin-bottom: 20px;
+  }
+}
+.diseases-list__item-article {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+}
+.diseases-list__item-article p {
+  display: block;
+}
+.diseases-list__item-article a {
+  color: #000000;
+}
+.diseases-list__article-number {
+  font-weight: 400;
+}
+
+.reviews-page-disease {
+  padding-left: 100px;
+  margin-bottom: 41px;
+}
+@media (max-width: 1400px) {
+  .reviews-page-disease {
+    padding-left: 10px;
+  }
+}
+
+.disease-page-popular-questions__tilte {
+  text-align: start;
+  margin-bottom: 60px;
+}
+@media (max-width: 540px) {
+  .disease-page-popular-questions__tilte {
+    text-align: center;
+  }
+}
+
+.popular-questions__item-text_upper {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+@media (max-width: 540px) {
+  .popular-questions__item-text_upper {
+    text-transform: none;
+  }
+}
+
+.disease-page-popular-questions {
+  padding-top: 60px;
+  padding-bottom: 98px;
+  margin: 0 auto;
+  max-width: 1621px;
+}
+@media (max-width: 1621px) {
+  .disease-page-popular-questions {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}/*# sourceMappingURL=diseases-schedule.css.map */

@@ -1,0 +1,5 @@
+<svg width="400" height="450" viewBox="0 0 400 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="400" height="450" fill="#FAFAFA"/>
+<path d="M175 214C175 211.791 176.791 210 179 210H185.359C186.697 210 187.946 209.332 188.687 208.219L191.313 204.281C192.054 203.168 193.303 202.5 194.641 202.5H205.359C206.697 202.5 207.946 203.168 208.687 204.281L211.313 208.219C212.054 209.332 213.303 210 214.641 210H221C223.209 210 225 211.791 225 214V243.5C225 245.709 223.209 247.5 221 247.5H179C176.791 247.5 175 245.709 175 243.5V214Z" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="200" cy="227.5" r="10" stroke="#14142B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

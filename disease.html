@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/swiper-bundle.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+	<link rel="stylesheet" type="text/css" href="files/fonts/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Army</title>
+</head>
+<body>
+	<div class="wrapper">
+		<div id='popup-city' class="popup-city">
+			<div class="popup-city__body">
+				<div class="popup-city__title">
+					Выберите город
+				</div>
+				<div class="popup-city__input">
+					<input placeholder="Ваш город">
+				</div>
+				<div class="popup-city__list">
+					<div class="popup-city__item">
+						<div class="popup-city__item-name">
+							Челябинск
+						</div>
+						<div class="popup-city__item-region">
+							Челябинская область
+						</div>
+						<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<circle cx="10" cy="10" r="10" fill="#D6D6D6"/>
+							<circle cx="10" cy="10" r="6" fill="white"/>
+						</svg>
+					</div>
+					<div class="popup-city__item active">
+						<div class="popup-city__item-name">
+							Челябинск
+						</div>
+						<div class="popup-city__item-region">
+							Челябинская область
+						</div>
+						<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<circle cx="10" cy="10" r="10" fill="#D6D6D6"/>
+							<circle cx="10" cy="10" r="6" fill="white"/>
+						</svg>
+					</div>
+					<div class="popup-city__item">
+						<div class="popup-city__item-name">
+							Челябинск
+						</div>
+						<div class="popup-city__item-region">
+							Челябинская область
+						</div>
+						<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<circle cx="10" cy="10" r="10" fill="#D6D6D6"/>
+							<circle cx="10" cy="10" r="6" fill="white"/>
+						</svg>
+					</div>
+					<div class="popup-city__item">
+						<div class="popup-city__item-name">
+							Челябинск
+						</div>
+						<div class="popup-city__item-region">
+							Челябинская область
+						</div>
+						<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<circle cx="10" cy="10" r="10" fill="#D6D6D6"/>
+							<circle cx="10" cy="10" r="6" fill="white"/>
+						</svg>
+					</div>
+					<div class="popup-city__item">
+						<div class="popup-city__item-name">
+							Челябинск
+						</div>
+						<div class="popup-city__item-region">
+							Челябинская область
+						</div>
+						<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<circle cx="10" cy="10" r="10" fill="#D6D6D6"/>
+							<circle cx="10" cy="10" r="6" fill="white"/>
+						</svg>
+					</div>
+					<div class="popup-city__item">
+						<div class="popup-city__item-name">
+							Челябинск
+						</div>
+						<div class="popup-city__item-region">
+							Челябинская область
+						</div>
+						<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<circle cx="10" cy="10" r="10" fill="#D6D6D6"/>
+							<circle cx="10" cy="10" r="6" fill="white"/>
+						</svg>
+					</div>
+					<div class="popup-city__close">
+						<img src="img/close.svg" alt="close">
+					</div>
+				</div>
+			</div>
+		</div>
+		<header class="header header_black">
+			<div class="header__top container">
+				<a href="index.html" class="header__top-logo">
+					<div class="header__logo-img">
+						<img  src="img/logo_black.svg" alt="logo">
+					</div>
+					<div class="header__logo-text header__logo-text_b">
+						служба защиты призывников
+					</div>
+				</a>
+				<div class="header__top-city">
+					Ваш город:
+					<span class="header__city-item">Челябинск</span>
+				</div>
+				<div class="header__top-search">
+					<input placeholder="Поиск">
+				</div>
+				<a class="header__top-phone" href="tel:+89005004233">8 900 500 42 33</a>
+				<div class="header__burger-button">
+					<img src="img/burger-btn_b.svg" alt="burger">
+				</div>
+				<div id="header__burger-menu" class="header__burger-menu">
+					<a href="index.html" class="header__burger-item">
+						Главная
+					</a>
+					<a href="military_duty.html" class="header__burger-item">
+						ФЗ о вионской обязанности
+					</a>
+					<a href="diseases_schedule.html" class="header__burger-item">
+						Расписание болезней
+					</a>
+					<a href="services_prices.html" class="header__burger-item">
+						Услуги и цены
+					</a>
+					<a href="reviews.html" class="header__burger-item">
+						Отзывы
+					</a>
+					<a href="question_answer.html" class="header__burger-item">
+						Вопрос-ответ
+					</a>
+					<a href="contacts.html" class="header__burger-item">
+						Контакты
+					</a>
+					<a href="contacts_address.html" class="header__burger-item">
+						Адреса
+					</a>
+					<a href="contacts_video.html" class="header__burger-item">
+						Видео
+					</a>
+					<a href="contacts_employees.html" class="header__burger-item">
+						Сотрудники
+					</a>
+					<a href="tel:+89005004233" class="header__burger-item header__burger-phone">
+						8 900 500 42 33
+					</a>
+				</div>
+			</div>
+			<div class="header__bottom header__bottom_black">
+				<div class="header__nav container">
+					<div class="header__nav-item">
+						<a href="index.html">Главная</a>
+					</div>
+					<div class="header__nav-item ">
+						<a href="military_duty.html ">ФЗ о вионской обязанности</a>
+					</div>
+					<div class="header__nav-item active">
+						<a href="diseases_schedule.html">Расписание болезней</a>
+					</div>
+					<div class="header__nav-item ">
+						<a href="services_prices.html">Услуги и цены</a>
+					</div>
+					<div class="header__nav-item ">
+						<a href="reviews.html ">Отзывы</a>
+					</div>
+					<div class="header__nav-item ">
+						<a href="question_answer.html">Вопрос-ответ</a>
+					</div>
+					<div class="header__nav-item header__nav-contact ">
+						<a href="contacts.html">Контакты</a>
+						<div class="header__contact-list">
+							<div class="header__contact-list-items">
+								<a href="contacts_video.html">
+									Видео
+								</a>
+								<a href="contacts_address.html">
+									Адреса
+								</a>
+								<a href="contacts_employees.html">
+									Сотрудники
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+	<section class="disease container">
+		<div class="disease__name title">
+			Эпилепсия
+		</div>
+		<div class="disease__buttons">
+			<a class="disease__button-test button_m">
+				<span>
+					Пройди тест и узнай
+				</span>
+				<b>
+					Возьмут ли тебя в армию
+				</b>
+			</a>
+			<a class="disease__button-write button_m">
+				<span>
+					Есть вопросы по болезни
+				</span>
+				<b>
+					Написать врачу
+				</b>
+			</a>
+		</div>
+		<div class="disease__table">
+			<table class="iskWeb">
+				<tbody>
+					<tr>
+						<td class="iskWeb__item_mid">Статья расписания болезней</td>
+						<td class="iskWeb__item_mid">Наименование болезней, степень нарушения функцкии</td>
+						<td class="iskWeb__item_mid">Категория годности к военной службе</td>
+					</tr>
+					<tr>
+						<td class="iskWeb__item_mid" rowspan="3">Статья 1.</td>
+						<td class="iskWeb__item_left">Кишечные инфекции, бактериальные зоозоны, другие бактериальные болезни, вирусные болезни, сопровождающиеся высыпаниями, вирусные и другие болезни, передаваемые членистоногими(кроме инфекций центральной нервной системы), другие болезни, вызываемые вирусами и хламидиями, риккетсиозы, другие инфекционные и паразитные болезни</td>
+						<td class="iskWeb__item_mid">Графа 1</td>
+					</tr>
+					<tr>
+						<td class="iskWeb__item_left">а) не поддающиеся или трудно поддающиеся лечению;</td>
+						<td class="iskWeb__item_mid">"В"</td>
+					</tr>
+					<tr>
+						<td class="iskWeb__item_left">б) временные функциональные расстройства после острых или обострениях хронических болезней</td>
+						<td class="iskWeb__item_mid">"Г"</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="disease__text">
+			<div class="disease__text-top">
+				<div class="disease__text-top-desk">
+					<p>Пункт «а» предусматривает хронические рецидивирующие формы заболеваний.
+					</p>
+					<p>
+						Освидетельствуемые по графе I расписания болезней, перенесшие острую форму бруцеллеза, токсоплазмоза, описторхоза и амебиаза (внекишечные формы, тяжелое течение кишечной формы) менее 12 месяцев назад, по пункту «б» признаются временно не годными к военной службе для оценки стойкости ремиссии.
+					</p>
+					<p>
+						<span>
+							В отношении военнослужащих, проходящих военную службу по призыву, перенесших острые формы бруцеллеза, токсоплазмоза, описторхоза и амебиаза (внекишечные формы, тяжелое течение кишечной формы), выносится заключение о необходимости предоставления отпуска по болезни сроком до 60 суток.
+						</span>
+					</p>
+					<p>
+						При рецидиве бруцеллеза или токсоплазмоза заключение выносится по пункту «а».
+					</p>
+					<p>
+						Наличие положительных серологических или аллергологических реакций без клинических проявлений бруцеллеза, токсоплазмоза или других заболеваний не может служить основанием для вынесения заключения о временной негодности к военной службе или ограниченной годности к военной службе.
+					</p>
+				</div>
+				<div class="disease__text-top-img">
+					<img src="img/disease-php.png" alt="disease">
+				</div>
+			</div>
+			<div class="disease__text-bot">
+				<p>
+					Военнослужащие, проходящие военную службу по призыву, страдающие хронической дизентерией, а также бактерионосители брюшного тифа, паратифов и сальмонеллеза подлежат лечению в стационарных условиях. В случае стойкого бактерионосительства в течение более 3 месяцев они по пункту «а» признаются ограниченно годными к военной службе, а освидетельствуемые по графе I расписания болезней по пункту «б» признаются временно не годными к военной службе на 6 месяцев для лечения. В дальнейшем при сохраняющемся бактерионосительстве, подтвержденном лабораторным исследованием, они освидетельствуются по пункту «а».
+				</p>
+				<p>
+					<span>
+						Категория годности к военной службе военнослужащих, проходящих военную службу по контракту, с хроническим выделением возбудителей тифо-паратифозных заболеваний, дизентерии и сальмонеллеза определяется по пункту «а».
+					</span>
+				</p>
+				<p>
+					При острых заболеваниях категория годности к военной службе военнослужащих определяется по окончании лечения в зависимости от состояния функций органов и систем.
+				</p>
+				<p>
+					Выявление поверхностного антигена вирусного гепатита B и антител к вирусу гепатита C у освидетельствуемых по всем графам является основанием для обследования в целях исключения скрыто протекающего хронического гепатита.
+				</p>
+				<p class="disease__text-subtitle">
+					Лица с хроническими вирусными гепатитами освидетельствуются по статье 59 расписания болезней.
+				</p>
+				<p>
+					Граждане, в том числе военнослужащие, поступающие в военно-учебные заведения, переболевшие острым вирусным гепатитом, брюшным тифом и паратифами, при отсутствии у них нарушений функций печени и желудочно-кишечного тракта признаются годными к поступлению в военно-учебные заведения, но не ранее чем через 6 месяцев после окончания лечения в стационарных условиях.
+				</p>
+				<p>
+					<span>
+						К пункту «б» относятся временные функциональные расстройства после перенесенных острых заболеваний, когда по завершении лечения в стационарных условиях у пациента сохраняются астенизация и нарушение питания. Заключение о необходимости предоставления отпуска по болезни может быть вынесено только в случаях тяжелого или осложненного течения заболевания (кишечная перфорация, кишечное кровотечение, миокардит, пневмония с парапневмоническим плевритом и др.) при сохранении астенизации после лечения в стационарных условиях, когда для оценки стойкости остаточных изменений и полного восстановления способности освидетельствуемого исполнять обязанности военной службы требуется срок не менее 30 суток.
+					</span>
+				</p>
+				<p>
+					В отношении военнослужащих, перенесших заболевание легкой или среднетяжелой неосложненной формы, заключение о необходимости предоставления отпуска по болезни не выносится. Восстановительное лечение этой категории переболевших завершается в реабилитационных отделениях военно-медицинских организаций (специальных центрах выздоравливающих) или в медицинских пунктах воинских частей, где может быть организован необходимый комплекс реабилитационных мероприятий. В исключительных случаях допускается проведение реабилитации в инфекционных или терапевтических отделениях военно-медицинских организаций.
+				</p>
+				<p>
+					В отдельных случаях военнослужащие, проходящие военную службу по контракту, перенесшие заболевание тяжелой или среднетяжелой формы, могут быть переведены для реабилитации в санаторно-курортные организации соответствующих федеральных органов исполнительной власти, в которых федеральным законом предусмотрена военная служба, по бесплатной путевке на срок не менее 20 дней. Курсанты и слушатели военно-учебных заведений в этих случаях в реабилитационные отделения и центры реабилитации не переводятся, а выписываются в воинскую часть.
+				</p>
+				<p class="disease__text-subtitle">
+					В отношении военнослужащих, проходящих военную службу по призыву, перенесших тяжелую форму острого вирусного гепатита и описторхоза, выносится заключение о необходимости предоставления отпуска по болезни сроком на 30 суток.
+				</p>
+				<p>
+					Военнослужащие, перенесшие острый вирусный гепатит B, C и D, подлежат диспансерному динамическому наблюдению в течение 6 месяцев с последующим углубленным обследованием для исключения формирования хронического гепатита.
+				</p>
+				<p>
+					Граждане, перенесшие острый вирусный гепатит, брюшной тиф и паратифы, при призыве на военную службу (военные сборы) или поступлении на военную службу по контракту признаются временно не годными к военной службе на 6 месяцев после окончания лечения в стационарных условиях.
+				</p>
+				<p>
+					Освидетельствование лиц с альвеококкозом или эхинококкозом любой локализации проводится по пункту «а». В отношении офицеров, прапорщиков и мичманов, освидетельствуемых в связи с перенесенным эхинококкозом печени или других органов, выносится заключение о необходимости предоставления отпуска по болезни сроком до 60 суток.
+				</p>
+			</div>
+		</div>
+	</section>
+	
+	<section class="reviews">
+		<div class="reviews__title title">
+			Отзывы
+		</div>
+		<div class="reviews-mobile">
+			<div class="reviews-mobile__content">
+				<div class="reviews-mobile__item">
+					<div class="reviews-mobile__item-text">
+						<div class="reviews-mobile__item-name">
+							Владимир, 21
+						</div>
+						<div class="reviews-mobile__item-info">
+							В 2015 году перевелся на заочное обучение, и сразу же пришла повестка от военкомата.
+						</div>
+					</div>
+					<div class="reviews-mobile__item-img">
+						<img src="img/camera.svg" alt="camera">
+					</div>
+				</div>
+				<div class="reviews-mobile__item">
+					<div class="reviews-mobile__item-text">
+						<div class="reviews-mobile__item-name">
+							Владимир, 21
+						</div>
+						<div class="reviews-mobile__item-info">
+							В 2015 году перевелся на заочное обучение, и сразу же пришла повестка от военкомата.
+						</div>
+					</div>
+					<div class="reviews-mobile__item-img">
+						<img src="img/camera.svg" alt="camera">
+					</div>
+				</div>
+				<div class="reviews-mobile__item">
+					<div class="reviews-mobile__item-text">
+						<div class="reviews-mobile__item-name">
+							Владимир, 21
+						</div>
+						<div class="reviews-mobile__item-info">
+							В 2015 году перевелся на заочное обучение, и сразу же пришла повестка от военкомата.
+						</div>
+					</div>
+					<div class="reviews-mobile__item-img">
+						<img src="img/camera.svg" alt="camera">
+					</div>
+				</div>
+				<div class="reviews-mobile__item">
+					<div class="reviews-mobile__item-text">
+						<div class="reviews-mobile__item-name">
+							Владимир, 21
+						</div>
+						<div class="reviews-mobile__item-info">
+							В 2015 году перевелся на заочное обучение, и сразу же пришла повестка от военкомата.
+						</div>
+					</div>
+					<div class="reviews-mobile__item-img">
+						<img src="img/camera.svg" alt="camera">
+					</div>
+				</div>
+				<div class="reviews-mobile__item">
+					<div class="reviews-mobile__item-text">
+						<div class="reviews-mobile__item-name">
+							Владимир, 21
+						</div>
+						<div class="reviews-mobile__item-info">
+							В 2015 году перевелся на заочное обучение, и сразу же пришла повестка от военкомата.
+						</div>
+					</div>
+					<div class="reviews-mobile__item-img">
+						<img src="img/camera.svg" alt="camera">
+					</div>
+				</div>
+				<div class="reviews-mobile__item">
+					<div class="reviews-mobile__item-text">
+						<div class="reviews-mobile__item-name">
+							Владимир, 21
+						</div>
+						<div class="reviews-mobile__item-info">
+							В 2015 году перевелся на заочное обучение, и сразу же пришла повестка от военкомата.
+						</div>
+					</div>
+					<div class="reviews-mobile__item-img">
+						<img src="img/camera.svg" alt="camera">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="reviews__swiper swiper">
+			<div class="swiper-wrapper">
+			  <div class="reviews__slide swiper-slide">
+				<div class="reviews__slide-img">
+					<img src="img/review-php.svg" alt="swiper-item">
+				</div>
+				<div class="reviews__slide-text">
+					<div class="reviews__slide-name">
+						Владимир, 21
+					</div>
+					<div class="reviews__slide-info">
+						В 2015 году перевелся на заочное обучение, и сразу же пришла повестка от военкомата.
+					</div>
+				</div>
+			  </div>
+			  <div class="reviews__slide swiper-slide">
+				<div class="reviews__slide-img">
+					<img src="img/review-php.svg" alt="swiper-item">
+				</div>
+				<div class="reviews__slide-text">
+					<div class="reviews__slide-name">
+						Владимир, 21
+					</div>
+					<div class="reviews__slide-info">
+						В 2015 году перевелся на заочное обучение, и сразу же пришла повестка от военкомата.
+					</div>
+				</div>
+			  </div>
+			  <div class="reviews__slide swiper-slide">
+				<div class="reviews__slide-img">
+					<img src="img/review-php.svg" alt="swiper-item">
+				</div>
+				<div class="reviews__slide-text">
+					<div class="reviews__slide-name">
+						Владимир, 21
+					</div>
+					<div class="reviews__slide-info">
+						В 2015 году перевелся на заочное обучение, и сразу же пришла повестка от военкомата.
+					</div>
+				</div>
+			  </div>
+			  <div class="reviews__slide swiper-slide">
+				<div class="reviews__slide-img">
+					<img src="img/swiper-item.png" alt="swiper-item">
+				</div>
+				<div class="reviews__slide-text">
+					<div class="reviews__slide-name">
+						Владимир, 21
+					</div>
+					<div class="reviews__slide-info">
+						В 2015 году перевелся на заочное обучение, и сразу же пришла повестка от военкомата.
+					</div>
+				</div>
+			  </div>
+			  <div class="reviews__slide swiper-slide">
+				<div class="reviews__slide-img">
+					<img src="img/swiper-item.png" alt="swiper-item">
+				</div>
+				<div class="reviews__slide-text">
+					<div class="reviews__slide-name">
+						Владимир, 21
+					</div>
+					<div class="reviews__slide-info">
+						В 2015 году перевелся на заочное обучение, и сразу же пришла повестка от военкомата.
+					</div>
+				</div>
+			  </div>
+			  <div class="reviews__slide swiper-slide">
+				<div class="reviews__slide-img">
+					<img src="img/swiper-item.png" alt="swiper-item">
+				</div>
+				<div class="reviews__slide-text">
+					<div class="reviews__slide-name">
+						Владимир, 21
+					</div>
+					<div class="reviews__slide-info">
+						В 2015 году перевелся на заочное обучение, и сразу же пришла повестка от военкомата.
+					</div>
+				</div>
+			  </div>
+			  <div class="reviews__slide swiper-slide">
+				<div class="reviews__slide-img">
+					<img src="img/swiper-item.png" alt="swiper-item">
+				</div>
+				<div class="reviews__slide-text">
+					<div class="reviews__slide-name">
+						Владимир, 21
+					</div>
+					<div class="reviews__slide-info">
+						В 2015 году перевелся на заочное обучение, и сразу же пришла повестка от военкомата.
+					</div>
+				</div>
+			  </div>
+			</div>
+			<div class="reviews__pagination"></div>
+		</div>
+		<div class="reviews__button">
+			<a href="#">
+				Смотреть отзывы ВКонтакте
+			</a>
+		</div>
+	</section>
+	<section class="popular-questions container">
+		<div class="popular-questions__title title">
+			Популярные вопросы
+		</div>
+		<div class="popular-questions__content">
+			<div class="popular-questions__item">
+				<div class="popular-questions__item-text">
+					Берут ли в армию с гипертонией?
+				</div>
+			</div>
+			<div class="popular-questions__item">
+				<div class="popular-questions__item-text">
+					Берут ли в армию с гипертонией и психическим обострением обострением 
+				</div>
+			</div>
+			<div class="popular-questions__item">
+				<div class="popular-questions__item-text">
+					Берут ли в армию с гипертонией?
+				</div>
+			</div>
+			<div class="popular-questions__item">
+				<div class="popular-questions__item-text">
+					Берут ли в армию с гипертонией?
+				</div>
+			</div>
+			<div class="popular-questions__item">
+				<div class="popular-questions__item-text">
+					Берут ли в армию с гипертонией и психическим обострением обострением
+				</div>
+			</div>
+			<div class="popular-questions__item">
+				<div class="popular-questions__item-text">
+					Берут ли в армию с гипертонией?
+				</div>
+			</div>
+			<div class="popular-questions__item">
+				<div class="popular-questions__item-text">
+					Берут ли в армию с гипертонией?
+				</div>
+			</div>
+			<div class="popular-questions__item">
+				<div class="popular-questions__item-text">
+					Берут ли в армию с гипертонией и психическим обострением обострением 
+				</div>
+			</div>
+			<div class="popular-questions__item">
+				<div class="popular-questions__item-text">
+					Берут ли в армию с гипертонией?
+				</div>
+			</div>
+			<div class="popular-questions__item">
+				<div class="popular-questions__item-text">
+					Берут ли в армию с гипертонией?
+				</div>
+			</div>
+			<div class="popular-questions__item">
+				<div class="popular-questions__item-text">
+					Берут ли в армию с гипертонией и психическим обострением обострением 
+				</div>
+			</div>
+			<div class="popular-questions__item">
+				<div class="popular-questions__item-text">
+					Берут ли в армию с гипертонией?
+				</div>
+			</div>
+		</div>
+		<div class="popular-questions__buttons">
+			<a class="popular-questions__button-test button_m">
+				<span>
+					Пройди тест и узнай
+				</span>
+				<b>
+					Возьмут ли тебя в армию
+				</b>
+			</a>
+			<a class="popular-questions__button-write button_m">
+				<span>
+					Есть вопросы по болезни
+				</span>
+				<b>
+					Написать врачу
+				</b>
+			</a>
+		</div>
+	</section>
+	<footer class="footer">
+    <div class="footer__content container">
+        <div class="footer__social">
+            <a href="index.html" class="footer__logo">
+                <div class="footer__logo-img">
+                    <img  src="img/logo.svg" alt="logo">
+                </div>
+                <div class="footer__logo-text">
+                    служба защиты призывников
+                </div>
+            </a>
+            <div class="footer__social-images">
+                <a href="#">
+                    <svg width="33" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_136_530)">
+                        <path d="M16 33C24.8366 33 32 25.6127 32 16.5C32 7.3873 24.8366 0 16 0C7.16344 0 0 7.3873 0 16.5C0 25.6127 7.16344 33 16 33Z" fill="#4D76A1"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M15.3957 23.737H16.6515C16.6515 23.737 17.0308 23.694 17.2245 23.4787C17.4028 23.2811 17.3971 22.9099 17.3971 22.9099C17.3971 22.9099 17.3725 21.1722 18.1546 20.9163C18.9255 20.6642 19.9155 22.5957 20.9648 23.3384C21.7583 23.9005 22.3612 23.7773 22.3612 23.7773L25.1669 23.737C25.1669 23.737 26.6346 23.6437 25.9387 22.4537C25.8816 22.3563 25.5334 21.5734 23.8526 19.9645C22.0934 18.2806 22.329 18.553 24.4481 15.6402C25.7387 13.8663 26.2547 12.7833 26.0936 12.3195C25.9398 11.8777 24.9906 11.9945 24.9906 11.9945L21.8316 12.0148C21.8316 12.0148 21.5974 11.9818 21.4237 12.0889C21.254 12.1939 21.1448 12.4386 21.1448 12.4386C21.1448 12.4386 20.6448 13.8113 19.978 14.9787C18.5713 17.442 18.0088 17.572 17.779 17.4191C17.2442 17.0626 17.3777 15.987 17.3777 15.2228C17.3777 12.8357 17.7288 11.8404 16.694 11.5827C16.3506 11.4971 16.0979 11.4406 15.2197 11.4315C14.0926 11.4195 13.1385 11.435 12.5983 11.708C12.2389 11.8895 11.9617 12.2939 12.1306 12.3171C12.3393 12.346 12.8122 12.4486 13.0629 12.8007C13.3866 13.2548 13.3752 14.2749 13.3752 14.2749C13.3752 14.2749 13.5612 17.085 12.9409 17.4341C12.515 17.6735 11.9309 17.1847 10.6768 14.9499C10.0342 13.8051 9.54908 12.5398 9.54908 12.5398C9.54908 12.5398 9.45553 12.3033 9.28868 12.1768C9.08617 12.0236 8.80324 11.9748 8.80324 11.9748L5.80135 11.9951C5.80135 11.9951 5.35071 12.008 5.18528 12.2101C5.03811 12.3898 5.17359 12.7616 5.17359 12.7616C5.17359 12.7616 7.52376 18.4318 10.1848 21.2892C12.6248 23.909 15.3957 23.737 15.3957 23.737Z" fill="white"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_136_530">
+                        <rect width="32" height="33" fill="white"/>
+                        </clipPath>
+                        </defs>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="33" height="33" fill="url(#pattern0)"/>
+                        <defs>
+                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0_136_539" transform="scale(0.00195312)"/>
+                        </pattern>
+                        <image id="image0_136_539" width="512" height="512" xlink:href="data:image/png;base64,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"/>
+                        </defs>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="16.5415" cy="16.498" r="16.2055" fill="white"/>
+                        <path d="M16.5415 0.29248C18.6696 0.29248 20.7769 0.711649 22.7431 1.52605C24.7092 2.34046 26.4957 3.53415 28.0005 5.03897C29.5053 6.54379 30.699 8.33028 31.5134 10.2964C32.3278 12.2626 32.747 14.3699 32.747 16.498C32.747 20.796 31.0396 24.9179 28.0005 27.9571C24.9614 30.9962 20.8394 32.7035 16.5415 32.7035C9.08693 32.7035 2.8478 27.7122 0.919337 20.9221L7.12606 23.4826C7.5474 25.5731 9.41104 27.1613 11.6312 27.1613C14.1593 27.1613 16.2174 25.1032 16.2174 22.5751V22.3644L21.7272 18.4265H21.8569C25.2276 18.4265 27.9664 15.6877 27.9664 12.317C27.9664 8.94624 25.2276 6.2075 21.8569 6.2075C18.4861 6.2075 15.7312 8.94624 15.7312 12.317V12.398L11.8905 18.0051L11.6312 17.9889C10.6751 17.9889 9.78376 18.2806 9.05451 18.783L0.335938 15.2016C1.03278 6.85572 8.00115 0.29248 16.5415 0.29248ZM10.513 24.8763C11.8095 25.4111 13.3004 24.8115 13.8351 23.515C14.3699 22.2186 13.7541 20.7439 12.4901 20.2091L10.4158 19.3502C11.2099 19.0585 12.1012 19.0423 12.9438 19.3988C13.8027 19.7391 14.4672 20.4035 14.8075 21.2624C15.164 22.1051 15.164 23.045 14.8075 23.8877C14.1106 25.6379 12.0525 26.4806 10.3023 25.7514C9.49206 25.4111 8.87625 24.7952 8.53594 24.066L10.513 24.8763ZM25.9407 12.317C25.9407 14.5696 24.1095 16.4008 21.8569 16.4008C19.6205 16.4008 17.7893 14.5696 17.7893 12.317C17.7872 11.7822 17.8909 11.2523 18.0946 10.7579C18.2982 10.2634 18.5977 9.81413 18.9759 9.43599C19.354 9.05785 19.8033 8.75832 20.2978 8.55466C20.7922 8.351 21.3221 8.24725 21.8569 8.2494C24.1095 8.2494 25.9407 10.0806 25.9407 12.317ZM18.8102 12.317C18.8102 14.0024 20.1715 15.3798 21.8731 15.3798C23.5585 15.3798 24.9197 14.0024 24.9197 12.317C24.9197 10.6316 23.5585 9.25414 21.8731 9.25414C20.1715 9.25414 18.8102 10.6316 18.8102 12.317Z" fill="#0A4158"/>
+                    </svg>	
+                </a>
+                <a href="#">
+                    <svg width="33" height="33" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.2926 0.801297C24.3875 0.840464 28.1573 4.35567 28.1984 8.70709C28.2121 12.5689 28.2121 16.4308 28.1984 20.2926C28.1592 24.3718 24.644 28.1573 20.2926 28.1984C16.4308 28.2121 12.5689 28.2121 8.70709 28.1984C4.61025 28.1592 0.842422 24.644 0.801297 20.2926C0.787589 16.4308 0.787589 12.5689 0.801297 8.70709C0.838505 4.6083 4.34588 0.842422 8.70709 0.801297C12.5689 0.787589 16.4308 0.787589 20.2926 0.801297V0.801297ZM8.75996 2.65192C5.58159 2.66171 2.68325 5.41709 2.65192 8.71884C2.64017 12.5728 2.64017 16.4268 2.65192 20.2808C2.6813 23.424 5.37009 26.3164 8.71884 26.3478C12.5728 26.3595 16.4268 26.3595 20.2808 26.3478C23.4318 26.3184 26.3164 23.6296 26.3478 20.2808C26.3595 16.4268 26.3595 12.5728 26.3478 8.71884C26.3184 5.55417 23.5767 2.68325 20.2808 2.65192C16.4405 2.64017 12.6003 2.65192 8.75996 2.65192V2.65192Z" fill="white"/>
+                        <path d="M14.5468 7.64648C17.7154 7.67586 20.6686 10.1199 21.2482 13.2512C21.6614 15.4837 20.882 17.9042 19.237 19.4748C17.406 21.2177 14.5723 21.8405 12.1439 20.9514C9.42969 19.9585 7.52031 17.0974 7.64761 14.1991C7.80231 10.7367 10.8612 7.65823 14.4998 7.64648C14.5155 7.64648 14.5311 7.64648 14.5468 7.64648V7.64648ZM14.4685 9.50103C12.2066 9.52257 10.074 11.2381 9.60398 13.4667C9.12811 15.7207 10.4245 18.2215 12.5532 19.1204C14.8778 20.1034 17.8799 19.0009 19.002 16.7057C20.1633 14.3342 19.0686 11.1127 16.6168 9.96711C15.949 9.65574 15.2068 9.49907 14.4685 9.50103Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M23.3125 7.11121C23.3125 6.73325 23.1617 6.37096 22.8954 6.10462C22.629 5.83829 22.2667 5.6875 21.8888 5.6875C21.8594 5.6875 21.8281 5.6875 21.7987 5.6875C21.4208 5.6875 21.0585 5.83829 20.7921 6.10462C20.5258 6.37096 20.375 6.73325 20.375 7.11121C20.375 7.12688 20.375 7.14058 20.375 7.15625C20.375 7.54596 20.5297 7.92 20.8058 8.19417C21.08 8.47029 21.454 8.625 21.8438 8.625C22.6545 8.625 23.3125 7.967 23.3125 7.15625C23.3125 7.14058 23.3125 7.12688 23.3125 7.11121Z" fill="white"/>
+                        </svg>
+                        
+                </a>
+            </div>
+        </div>
+        <div class="footer__text">
+            <div class="footer__text-nav">
+                <a class="footer__nav-item" href="military_duty.html">ФЗ о вионской обязанности</a>
+                <a class="footer__nav-item" href="diseases_schedule.html">Расписание болезней</a>
+                <a class="footer__nav-item" href="services_prices.html">Услуги и цены</a>
+                <a class="footer__nav-item" href="reviews.html">Отзывы</a>
+                <a class="footer__nav-item" href="question_answer.html">Вопрос-ответ</a>
+                <a class="footer__nav-item" href="contacts.html">Контакты</a>
+            </div>
+            <div class="footer__text-subtitle">
+                Медицинская лицензия ООО "Аргумент": № ЛО-74-01-004829 от 09.11.2018
+            </div>
+            <div class="footer__text-desc">
+                Обращаем Ваше внимание! Выдача военных билетов и предоставление отсрочек от призыва на военную службу производится на основании решений призывных комиссий и относится к исключительной компетенции военных комиссариатов. Наша компания оказывает юридические услуги для призывников. Каждый конкретный случай индивидуален, примеры и отзывы о решенных проблемах клиентов компании, получивших отсрочку от призыва или военный билет не являются ориентиром для решения проблем других призывников. Все материалы, <span>размещённые на данном сайте, не зависимо от их содержания, не являются публичной офертой.</span>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        © 2011-2022 ООО "Аргумент"
+    </div>
+</footer>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script src="js/app.min.js"></script>
+
+</body>
+</html>
+
+

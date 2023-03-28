@@ -1,0 +1,89 @@
+.address-country {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #000000;
+}
+@media (max-width: 900px) {
+  .address-country {
+    padding-top: 60px;
+  }
+}
+.address-country__title {
+  margin-bottom: 58px;
+}
+@media (max-width: 540px) {
+  .address-country__title {
+    text-align: center;
+  }
+}
+.address-country__content {
+  background: #FAFAFA;
+  padding-top: 100px;
+  padding-left: 98px;
+  padding-bottom: 150px;
+}
+@media (max-width: 540px) {
+  .address-country__content {
+    background-color: #ffffff;
+    padding-left: 0px;
+  }
+}
+.address-country__buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 172px;
+}
+@media (max-width: 540px) {
+  .address-country__buttons {
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 540px) and (max-width: 540px) {
+  .address-country__buttons a:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+.address-country__list {
+  padding-left: 13px;
+}
+.address-country__list-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-bottom: 42px;
+}
+.address-country__list-title span {
+  margin-right: 13px;
+}
+@media (max-width: 540px) {
+  .address-country__list-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+.address-country__list-item {
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  margin-bottom: 25px;
+  color: #000000;
+}
+@media (max-width: 540px) {
+  .address-country__list-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+.address-country__code {
+  min-width: 53px;
+}
+@media (max-width: 540px) {
+  .address-country__code {
+    margin-right: 0px;
+    min-width: 44px;
+  }
+}/*# sourceMappingURL=contacts-address.css.map */

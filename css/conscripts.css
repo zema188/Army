@@ -1,0 +1,72 @@
+.conscripts {
+  color: #000000;
+  padding-top: 100px;
+}
+@media (max-width: 900px) {
+  .conscripts {
+    padding-top: 50px;
+  }
+}
+.conscripts__title {
+  margin-bottom: 31px;
+}
+@media (max-width: 900px) {
+  .conscripts__title {
+    text-align: center;
+  }
+}
+.conscripts__subtitle {
+  font-size: 26px;
+  line-height: 32px;
+  text-transform: uppercase;
+  margin-bottom: 99px;
+}
+@media (max-width: 900px) {
+  .conscripts__subtitle {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+  }
+}
+.conscripts__content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.conscripts__item {
+  border: 3px solid #ACCCE6;
+  border-radius: 15px;
+  display: block;
+  color: #000000;
+  flex: 0 0 22%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 37px;
+  padding: 75px 0px 75px 0px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+@media (max-width: 1024px) {
+  .conscripts__item {
+    flex: 0 0 32%;
+  }
+}
+@media (max-width: 768px) {
+  .conscripts__item {
+    flex: 0 0 45%;
+  }
+}
+@media (max-width: 540px) {
+  .conscripts__item {
+    flex: 0 0 100%;
+  }
+}
+
+.conscripts__reviews {
+  padding-bottom: 100px;
+}/*# sourceMappingURL=conscripts.css.map */

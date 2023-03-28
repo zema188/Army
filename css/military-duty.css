@@ -1,0 +1,67 @@
+.military-duty {
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+@media (max-width: 900px) {
+  .military-duty {
+    padding-top: 20px;
+  }
+}
+.military-duty__title {
+  margin-bottom: 62px;
+}
+@media (max-width: 900px) {
+  .military-duty__title {
+    text-align: center;
+  }
+}
+.military-duty__buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 58px;
+}
+@media (max-width: 540px) {
+  .military-duty__buttons {
+    flex-direction: column;
+  }
+}
+@media (max-width: 540px) and (max-width: 540px) {
+  .military-duty__buttons a:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+.military-duty__list-item {
+  background: #FAFAFA;
+  border-radius: 15px;
+  color: #000000;
+  padding: 39px 50px 39px 50px;
+}
+.military-duty__list-item:not(:last-child) {
+  margin-bottom: 31px;
+}
+@media (max-width: 900px) {
+  .military-duty__list-item {
+    padding: 39px 20px 39px 20px;
+  }
+}
+.military-duty__list-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 13px;
+}
+.military-duty__list-article {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+}
+.military-duty__list-article p {
+  display: block;
+}
+.military-duty__list-article a {
+  color: #000000;
+}
+.military-duty__article-number {
+  font-weight: 400;
+}/*# sourceMappingURL=military-duty.css.map */
